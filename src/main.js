@@ -1,5 +1,5 @@
 import 'phaser'
-/** @type {import("https://raw.githubusercontent.com/KyleHinson/kylehinson.github.io/refs/heads/main/typings/phaser.json")} */
+/** @type {import("..\typings\phaser.json")} */
 // For Github Page Build, Raw git file to import
 import './style.css'
 
