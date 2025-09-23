@@ -1,5 +1,4 @@
 /** @type {import Phaser from ("phaser")} */
-/** @type {import("..\lib\phaser.js")} */
 // For Github Page Build, Raw git file to import
 // If it works dont touch it
 import './style.css'
