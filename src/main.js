@@ -1,6 +1,7 @@
 import 'phaser'
-/** @type {import("..\typings\phaser.json")} */
+/** @type {import("..\typings\phaser.d.ts")} */
 // For Github Page Build, Raw git file to import
+// If it works dont touch it
 import './style.css'
 
 import {LoadScene} from "./scenes/LoadScene";
