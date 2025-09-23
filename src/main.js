@@ -1,5 +1,5 @@
 import 'phaser'
-/** @type {import("https://raw.githubusercontent.com/phaserjs/phaser/refs/heads/master/types/phaser.jsons")} */
+/** @type {import("https://cdn.jsdelivr.net/npm/phaser@3.86.0/dist/phaser.min.js")} */
 // For Github Page Build, Raw git file to import
 import './style.css'
 
