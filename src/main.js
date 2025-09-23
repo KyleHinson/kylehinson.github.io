@@ -1,4 +1,4 @@
-import 'phaser'
+import Phaser from "phaser"
 /** @type {import("..\typings\phaser.d.ts")} */
 // For Github Page Build, Raw git file to import
 // If it works dont touch it
