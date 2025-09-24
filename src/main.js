@@ -2,8 +2,7 @@
 
 // For Github Page Build, Raw git file to import
 // If it works dont touch it
-import './style.css'
-
+   
 import {LoadScene} from "./scenes/LoadScene.js";
 import {MainMenu} from "./scenes/MainMenu.js";
 
