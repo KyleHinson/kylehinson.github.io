@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    base: './',
+    base: 'https://kylehinson.github.io',
     build: {
         rollupOptions: {
             output: {
@@ -14,4 +14,5 @@ export default defineConfig({
     server: {
         port: 8080
     }
+  
 });
