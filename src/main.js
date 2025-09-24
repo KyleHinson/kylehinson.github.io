@@ -6,12 +6,16 @@
 import {LoadScene} from "./scenes/LoadScene.js";
 import {MainMenu} from "./scenes/MainMenu.js";
 
-var w = window.innerWidth;
+var w = window.innerHeight/16*9;
 var h = window.innerHeight; 
 
 let game = new Phaser.Game({
     width: w,
     height: h,
+    scale:{
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTRE_BOTH,
+    },
     scene:[
          LoadScene,MainMenu
     ]
