@@ -1,5 +1,5 @@
 /** @type {import Phaser from ("phaser")} */
-import Phaser from 'phaser';
+
 // For Github Page Build, Raw git file to import
 // If it works dont touch it
 import './style.css'
