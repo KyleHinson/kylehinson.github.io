@@ -1,4 +1,5 @@
 import { CST } from "../CST.js";
+
 export class MainMenu extends Phaser.Scene{
     constructor(){
         super({
