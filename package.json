@@ -1,13 +1,15 @@
 {
   "name": "kylehinson.github.io",
-  "homepage":"kylehinson.github.io",
+  "homepage":"https://kylehinson.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "typescript": "~5.8.3",
