@@ -4,8 +4,8 @@ import Phaser from 'phaser';
 // If it works dont touch it
 import './style.css'
 
-import {LoadScene} from "./scenes/LoadScene";
-import {MainMenu} from "./scenes/MainMenu";
+import {LoadScene} from "./scenes/LoadScene.js";
+import {MainMenu} from "./scenes/MainMenu.js";
 
 var w = window.screen.width +100;
 var h = window.screen.height; 

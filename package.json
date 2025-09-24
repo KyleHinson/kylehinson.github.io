@@ -1,6 +1,6 @@
 {
   "name": "kylehinson.github.io",
-  "homepage":"https://kylehinson.github.io",
+  "homepage": "https://kylehinson.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,7 @@
     "typescript": "~5.8.3",
     "vite": "^7.1.7"
   },
-      "dependencies": {
-        "phaser": "^3.90.0"
-    }
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
 }
